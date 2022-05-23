@@ -1,0 +1,41 @@
+.headerleft >img{
+    height: 50px;
+    /* margin-left: 5px; */
+    object-fit: contain;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid whitesmoke;
+}
+.headerleft{
+    display: flex;
+    align-items: center;
+}
+.headermiddle{
+    display: flex;
+    flex: 0.7;
+    align-items: center;
+    background-color:whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+}
+.headermiddle >input{
+    width: 100%;
+    border: none;
+    padding: 10px;
+    background-color: transparent;
+    outline-width: 0;
+    font-size: medium;
+}
+.search{
+    color: gray;
+}
+.dropdownarrow{
+    color: gray;
+}
+.headerright{
+    display: flex;
+    padding-right: 20px;
+}
